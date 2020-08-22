@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class BtmNavbar extends StatelessWidget {
   Color active = Colors.white;
-  Color noActive = Colors.white60;
+  Color noActive = Colors.white70;
   double _iconSize = 30;
 
   @override
