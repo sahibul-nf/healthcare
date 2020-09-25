@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:healthcare/home_page.dart';
+import 'package:healthcare/view/home_page.dart';
+import 'package:healthcare/view/initial_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,10 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: InitialPage(),
       theme: ThemeData(
-          scaffoldBackgroundColor: Color(0xffEDEDED),
-          bottomAppBarColor: Color(0xffEDEDED)),
+        scaffoldBackgroundColor: Color(0xffEDEDED),
+      ),
     );
   }
 }
